@@ -1,0 +1,23 @@
+---
+name: simple_blog
+description: Simple blog app from TVAC Studio, adapted to Flutter by Adriano (https://github.com/AdrianoJunior)
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  firebase_auth: ^0.18.1+2
+  cloud_firestore: ^0.14.1+3
+  cached_network_image: ^2.3.2+1
+  image_picker: ^0.6.7+11
+  image_cropper: ^1.3.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
