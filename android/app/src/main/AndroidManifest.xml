@@ -2,9 +2,10 @@
     package="br.com.adrianojunior.simple_blog">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="simple_blog"
-        android:icon="@mipmap/ic_launcher">
-        <activity
+        android:label="Photo Blog"
+        android:icon="@mipmap/ic_launcher"
+       android:requestLegacyExternalStorage="true">
+       <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
